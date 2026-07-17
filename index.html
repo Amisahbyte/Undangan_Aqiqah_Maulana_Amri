@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Undangan Tasyakuran Aqiqah — Maulana Amri Bin Muhammad Ridho</title>
+    <meta
+      name="description"
+      content="Undangan Tasyakuran Aqiqah putra kami tercinta"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ================= LOADING SCREEN ================= -->
+    <div id="loading-screen">
+      <div class="loading-sky">
+        <div class="loading-star star1">✦</div>
+        <div class="loading-star star2">✧</div>
+        <div class="loading-star star3">✦</div>
+        <div class="loading-star star4">✧</div>
+        <div class="loading-star star5">✦</div>
+        <div class="loading-moon">
+          <div class="moon-crescent"></div>
+        </div>
+      </div>
+      <p class="loading-bismillah">Bismillahirrahmanirrahim</p>
+      <h1 class="loading-title">Undangan Tasyakuran Aqiqah</h1>
+      <div class="loading-dots"><span></span><span></span><span></span></div>
+    </div>
+
+    <!-- Background ambient elements shown after loading -->
+    <div class="ambient-layer" id="ambient-layer" aria-hidden="true"></div>
+
+    <!-- ================= MAIN CONTENT WRAPPER ================= -->
+    <div id="main-content" class="hidden-until-open">
+      <!-- Floating music toggle -->
+      <button
+        id="music-toggle"
+        class="music-btn"
+        aria-label="Putar atau jeda musik"
+        disabled
+      >
+        <span class="music-icon">🎵</span>
+      </button>
+      <audio
+        id="bg-music"
+        src="./sholawat-nabi.mp3"
+        loop
+        preload="none"
+      ></audio>
+
+      <!-- ================= HERO SECTION ================= -->
+      <section id="hero" class="section hero-section">
+        <div class="hero-bg-shapes" aria-hidden="true">
+          <div class="cloud cloud1">☁️</div>
+          <div class="cloud cloud2">☁️</div>
+          <div class="cloud cloud3">☁️</div>
+          <div class="hero-moon">🌙</div>
+          <div class="hero-star hs1">⭐</div>
+          <div class="hero-star hs2">✨</div>
+          <div class="hero-star hs3">⭐</div>
+          <div class="balloon b1">🎈</div>
+          <div class="balloon b2">🎈</div>
+          <div class="balloon b3">🎈</div>
+          <div class="flower f1">🌸</div>
+          <div class="flower f2">🌸</div>
+        </div>
+
+        <div class="hero-content fade-in-on-scroll">
+          <p class="hero-eyebrow">✧ Tasyakuran Aqiqah ✧</p>
+          <div class="hero-baby-illustration" aria-hidden="true">
+            <div class="hero-baby-illustration" aria-hidden="true">
+            <img src="./image/bayi_3.jpg" alt="Maulana Amri" class="baby-profile-img">
+          </div>
+
+            
+          </div>
+          <h1 class="hero-name">Maulana Amri Bin Muhammad Ridho</h1>
+          <p class="hero-message">
+            Dengan memohon rahmat dan ridha Allah SWT, kami mengundang<br
+              class="br-desktop"
+            />
+            Bapak/Ibu/Saudara/i untuk menghadiri acara Tasyakuran Aqiqah putra
+            kami.
+          </p>
+          <button id="open-invitation" class="btn-primary">
+            <span>💌 Buka Undangan</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- ================= AYAT / HADITS ================= -->
+      <section id="ayat" class="section ayat-section">
+        <div class="section-inner fade-in-on-scroll">
+          <p class="section-eyebrow">✦ Firman Allah SWT ✦</p>
+          <div class="glass-card ayat-card">
+            <p class="ayat-arabic">
+              فَلَمَّا بَلَغَ مَعَهُ السَّعْيَ قَالَ يَا بُنَيَّ إِنِّي أَرَىٰ
+              فِي الْمَنَامِ أَنِّي أَذْبَحُكَ فَانظُرْ مَاذَا تَرَىٰ
+            </p>
+            <p class="ayat-translation">
+              "Maka tatkala anak itu sampai (pada umur sanggup) berusaha
+              bersama-sama Ibrahim, Ibrahim berkata, 'Hai anakku sesungguhnya
+              aku melihat dalam mimpi bahwa aku menyembelihmu. Maka pikirkanlah
+              apa pendapatmu!'"
+            </p>
+            <p class="ayat-source">QS. Ash-Shaffat: 102</p>
+          </div>
+          <div class="glass-card hadits-card">
+            <p class="hadits-text">
+              "Setiap anak tergadai dengan aqiqahnya, disembelihkan hewan
+              untuknya pada hari ketujuh, dicukur rambutnya, dan diberi nama."
+            </p>
+            <p class="ayat-source">HR. Tirmidzi &amp; Abu Dawud</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= DETAIL ACARA ================= -->
+      <section id="detail" class="section detail-section">
+        <div class="section-inner fade-in-on-scroll">
+          <p class="section-eyebrow">✦ Detail Acara ✦</p>
+          <h2 class="section-title">Kapan &amp; Di Mana</h2>
+
+          <div class="detail-grid">
+            <div class="glass-card detail-card">
+              <div class="detail-icon float-slow">📅</div>
+              <h3>Hari &amp; Tanggal</h3>
+              <p>Ahad, 10 Oktober 2027</p>
+            </div>
+            <div class="glass-card detail-card">
+              <div class="detail-icon float-slow">🕘</div>
+              <h3>Waktu</h3>
+              <p>09.00 WIB — Selesai</p>
+            </div>
+            <div class="glass-card detail-card">
+              <div class="detail-icon float-slow">📍</div>
+              <h3>Lokasi</h3>
+              <p>
+                Kediaman Keluarga Besar<br />Jl. Young Panah Hijau, <br> Gg Bidan, Labuhan Deli, Kecamatan Marelan, Kota Medan,Sumatera Utara
+              </p>
+            </div>
+            <div class="glass-card detail-card">
+              <div class="detail-icon float-slow">🕌</div>
+              <h3>Petunjuk Arah</h3>
+              <a
+                href="https://maps.app.goo.gl/5yyeRyedTMEiAaVv6"
+                target="_blank"
+                rel="noopener"
+                class="btn-maps"
+                >Buka Google Maps</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PROFIL ANAK ================= -->
+      <section id="profil" class="section profil-section">
+        <div class="section-inner fade-in-on-scroll">
+          <p class="section-eyebrow">✦ Buah Hati Kami ✦</p>
+          <div class="profil-photo-wrap">
+            <div class="flower-frame" aria-hidden="true">🌸</div>
+            <div class="profil-photo">
+              <span class="photo-placeholder"><img src="./image/bayi_1.jpg" alt="Foto Malauna Amri" /></span>
+            </div>
+            <div class="flower-frame frame2" aria-hidden="true">🌼</div>
+          </div>
+          <div class="glass-card profil-info">
+            <p class="profil-row">
+              <span class="profil-label">Nama Lengkap</span
+              ><span class="profil-value">Maulana Amri Bin Muhammad Ridho</span>
+            </p>
+            <p class="profil-row">
+              <span class="profil-label">Tanggal Lahir</span
+              ><span class="profil-value">10 Oktober 2027</span>
+            </p>
+            <p class="profil-row">
+              <span class="profil-label">Anak ke</span
+              ><span class="profil-value"
+                >Pertama, dari Ayah Muhammad Ridho &amp; Bunda Amisah</span
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= GALERI FOTO ================= -->
+      <section id="galeri" class="section galeri-section">
+        <div class="section-inner fade-in-on-scroll">
+          <p class="section-eyebrow">✦ Galeri Kenangan ✦</p>
+          <div class="gallery-slider">
+            <div class="gallery-slide active">
+              <img src="./image/galeri_1.jpeg" alt="Momen Bahagia" />
+            </div>
+
+            <div class="gallery-slide">
+              <img src="./image/galeri_2.jpeg" alt="Senyum Kecil" />
+            </div>
+
+            <div class="gallery-slide">
+              <img src="./image/geleri_3.jpeg" alt="Bersama Keluarga" />
+            </div>
+
+            <div class="gallery-dots" id="gallery-dots"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= COUNTDOWN ================= -->
+      <section id="countdown" class="section countdown-section">
+        <div class="section-inner fade-in-on-scroll">
+          <p class="section-eyebrow">✦ Menghitung Hari ✦</p>
+          <h2 class="section-title">Segera Berjumpa</h2>
+          <div class="countdown-grid" id="countdown-grid">
+            <div class="glass-card cd-card">
+              <span class="cd-number" id="cd-days">00</span>
+              <span class="cd-label">Hari</span>
+            </div>
+            <div class="glass-card cd-card">
+              <span class="cd-number" id="cd-hours">00</span>
+              <span class="cd-label">Jam</span>
+            </div>
+            <div class="glass-card cd-card">
+              <span class="cd-number" id="cd-minutes">00</span>
+              <span class="cd-label">Menit</span>
+            </div>
+            <div class="glass-card cd-card">
+              <span class="cd-number" id="cd-seconds">00</span>
+              <span class="cd-label">Detik</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= UCAPAN & DOA ================= -->
+      <section id="ucapan" class="section ucapan-section">
+        <div class="section-inner fade-in-on-scroll">
+          <p class="section-eyebrow">✦ Ucapan &amp; Doa ✦</p>
+          <h2 class="section-title">Kirimkan Doa Terbaik</h2>
+
+          <form id="wishes-form" class="glass-card wishes-form">
+            <label for="wish-name">Nama</label>
+            <input
+              type="text"
+              id="wish-name"
+              placeholder="Nama Anda"
+              required
+            />
+            <label for="wish-message">Ucapan &amp; Doa</label>
+            <textarea
+              id="wish-message"
+              rows="3"
+              placeholder="Tuliskan doa terbaik untuk Maulana Amri..."
+              required
+            ></textarea>
+            <button type="submit" class="btn-primary btn-small">
+              Kirim Doa 🤍
+            </button>
+          </form>
+
+          <div id="wishes-list" class="wishes-list"></div>
+        </div>
+      </section>
+
+      <!-- ================= GIFT SECTION ================= -->
+      <section id="gift" class="section gift-section">
+        <div class="section-inner fade-in-on-scroll">
+          <p class="section-eyebrow">✦ Tanda Kasih ✦</p>
+          <h2 class="section-title">Kirim Hadiah</h2>
+          <p class="gift-subtitle">
+            Doa restu Bapak/Ibu/Saudara/i adalah hadiah terindah bagi kami.
+            Namun apabila ingin memberikan tanda kasih, dapat melalui:
+          </p>
+
+          <div class="glass-card gift-card">
+            <div class="gift-bank-icon">🏦</div>
+            <p class="gift-bank-name">Bank Syariah Indonesia</p>
+            <p class="gift-account-name">a.n. Amisah</p>
+            <div class="gift-account-row">
+              <span id="account-number">7237 046 204</span>
+              <button id="copy-account" class="btn-copy">Salin</button>
+            </div>
+            <p id="copy-feedback" class="copy-feedback"></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PENUTUP ================= -->
+      <section id="penutup" class="section penutup-section">
+        <div class="penutup-bg" aria-hidden="true">
+          <div class="lantern l1">🏮</div>
+          <div class="lantern l2">🏮</div>
+          <div class="goat">🐐</div>
+          <div class="balloon-up bu1">🎈</div>
+          <div class="balloon-up bu2">🎈</div>
+          <div class="balloon-up bu3">🎈</div>
+          <div class="sparkle sp1">✨</div>
+          <div class="sparkle sp2">✨</div>
+          <div class="sparkle sp3">✨</div>
+        </div>
+        <div class="section-inner fade-in-on-scroll penutup-content">
+          <p class="penutup-text">
+            Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila<br
+              class="br-desktop"
+            />
+            Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa terbaik.
+          </p>
+          <p class="penutup-signature">
+            Wassalamu'alaikum Warahmatullahi Wabarakatuh
+          </p>
+          <p class="penutup-family">
+            Keluarga Besar Muhammad Ridho &amp; Amisah
+          </p>
+          <p class="footer-note">Dibuat dengan 🤍 untuk Maulana Amri · 2027</p>
+        </div>
+      </section>
+    </div>
+    <!-- /#main-content -->
+
+    <div id="confetti-container" aria-hidden="true"></div>
+    <div id="hearts-container" aria-hidden="true"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
